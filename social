@@ -1,0 +1,38 @@
+@base http://users.dcc.uchile.cl/~rtorres/foaf.ttl .
+
+@prefix rt: http://users.dcc.uchile.cl/~rtorres/foaf.ttl# .
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+@prefix foaf: http://xmlns.com/foaf/0.1/ .
+@prefix dc: http://purl.org/dc/terms/ .
+@prefix social:http://users.dcc.uchile.cl/~ahogan/social.ttl#.
+@prefix xsd: http://www.w3.org/2001/XMLSchema#.
+@prefix wd: http://www.wikidata.org/entity/.
+@prefix dbr: http://dbpedia.org/resource/.
+
+<> a foaf:Document ;
+   dc:date "2021-11-10"^^xsd:date ;
+   dc:title "Ray's FOAF Profile"@en ;
+   foaf:primaryTopic <#rt> ;
+   dc:creator <#rt> .
+
+<#rt> a foaf:Person ;
+   rdfs:label "Ray Torres" ;
+   rdfs:comment "Student of the DII"@es , "Estudiante del DII"@es ;
+   foaf:homepage https://www.linkedin.com/in/raimundo-torres-541164194/ ;
+   foaf:name "Ray Torres" ;
+   foaf:givenName "Ray" ;
+   foaf:familyName "Torres" ;
+   foaf:age 23 ; # it would be better to put date of birth to not have to update every birthday, but hey 🙂
+   foaf:img https://pngimg.com/uploads/pokemon/pokemon_PNG148.png ;
+   foaf:knows
+ http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah , 
+<anakena.dcc.uchile.cl/ ... ia/sofifoaf/foaf.ttl#so>,
+<anakena.dcc.uchile.cl/~rstapia/foaf.ttl#rs>,
+<users.dcc.uchile.cl/~paliaga/foaf.ttl#pa> ;
+   foaf:interest dbr:Semantic_Web, dbr:Football_player, dbr:Tennis ; 
+   social:hasEnemy http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab ;
+   social:likesMovie dbr:Shrek , dbr:Shrek2 , dbr:Shrek3 , dbr:Shrek4 ;
+   social:hasSpiritAnimal dbr:Duck ;
+   social:hasFavouritePlatonicSolid dbr:Dodecahedron ;
+   foaf:nick "Ray" .
