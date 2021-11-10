@@ -1,4 +1,4 @@
-@base http://users.dcc.uchile.cl/~rtorres/foaf.ttl .
+@base http://raw.githubusercontent.com/pauulimarin/Web-de-datos-/main/social.
 
 @prefix rt: http://users.dcc.uchile.cl/~rtorres/foaf.ttl# .
 @prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
