@@ -1,4 +1,4 @@
-,Name,Height,Mass,Eye_color,Gender,Homeworld,Species
+ID,Name,Height,Mass,Eye_color,Gender,Homeworld,Species
 0,name,height,mass,eye_color,gender,homeworld,species
 1,Luke Skywalker,172,77,blue,male,Tatooine,Human
 2,C-3PO,167,75,yellow,0,Tatooine,Droid
