@@ -1,4 +1,4 @@
-"Name";"rotation_period";"orbital_period";"diameter";"climate";"gravity";"terrain";"population"
+"Name";"Rotation_period";"Orbital_period";"Diameter";"Climate";"Gravity";"Terrain";"Population"
 "Alderaan";"24.0";"364.0";"12500.0";"temperate";"1_standard";"grasslands,_mountains";"2000000000.0"
 "Yavin_IV";"24.0";"4818.0";"10200.0";"temperate,_tropical";"1_standard";"jungle,_rainforests";"1000.0"
 "Hoth";"23.0";"549.0";"7200.0";"frozen";"1.1_standard";"tundra,_ice_caves,_mountain_ranges";"0"
